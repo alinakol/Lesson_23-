@@ -1,0 +1,53 @@
+@font-face {
+	font-family:"Lato";
+	src: url(../fonts/lato/Lato-Regular.woff2) format("woff2"), url(../fonts/lato/Lato-Regular.woff) format("woff");
+	font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+	font-family:"Lato";
+	src: url(../fonts/lato/Lato-Bold.woff2) format("woff2"), url(../fonts/lato/Lato-Bold.woff) format("woff");
+	font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+	font-family:"Lato";
+	src: url(../fonts/lato/Lato-Black.woff2) format("woff2"), url(../fonts/lato/Lato-Black.woff) format("woff");
+	font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+
+body{
+	font-family: ;
+	/* font-size: пишему якщо інший від 16px; */
+}
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+
+}.wrapper > main{
+	flex-grow: 1;
+}
+[class*="__container"]{
+	max-width: ;
+	margin: 0 auto;
+}
+.page__block{
+	margin-top: 20px;
+}
+.page__text{
+	margin-bottom: 20px;
+}
+.page__titel{
+	color: #150a79;
+	margin-bottom: 10px;
+}
